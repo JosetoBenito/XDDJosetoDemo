@@ -15,6 +15,7 @@ namespace BookClient
 
         public AddEditBookPage(BookManager manager, IList<Book> books, Book existingBook = null)
         {
+
             this.manager = manager;
             this.books = books;
             this.existingBook = existingBook;
